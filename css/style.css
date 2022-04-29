@@ -25,14 +25,20 @@ header {
     display: flex;
     align-items: center;
     height: 100%;
+    justify-content: center;
+    
 }
 
-.column {
-    width: 100%;
+.flextext {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    line-height: 30px;
+    color: white;
+    font-size: 20px;
 }
-
 .col {
-    margin: auto;
+    padding-top: 40px;
     width: 80%;
     /* Debug */ 
     height: 40px;  
@@ -71,14 +77,18 @@ a.login {
     text-align: end;
 }
 .jumbotron {
-    margin: auto;
     width: 50%;
-    /* Debug */
-    opacity: 0.3;
-    background-color: violet;
     height: 90%;
-    border: 2px dashed black;
+  
 }
+
+h1 {
+    font-size: 40px;
+    color: white;
+    padding-bottom: 40px;
+}
+
+
 /* Fine Header */
 
 
@@ -106,6 +116,15 @@ a.login {
     font-size: 12px;
     text-align: center;
     padding: 2px;
+}
+
+.btnsmall {
+    border-radius: 30px;
+    margin: 5px;
+    height: 10%;
+    display: inline-block;
+    color: black;
+    padding: 9px;
 }
 /* Common Color FINE */
 .boxxone {
