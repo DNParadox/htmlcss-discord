@@ -110,7 +110,7 @@ h2 {
 /* Inizio Main */
 
 .main {
-    height: 600px;
+    height: 1000px;
 }
 /* Common INIZIO */
 .text {
@@ -152,8 +152,6 @@ img {
         width: 75%;
         display: flex;
         align-items: center;
-        /* Debug */
-        border: 3px dashed black;
         height: 90%;
 }
 
@@ -177,9 +175,22 @@ img {
     padding: 30px;
 }
 
+.centertext {
+    text-align: center;
+
+}
 .para {
     line-height: 30px;
 }
+
+h3 {
+    font-size: 25px;
+}
+.star {
+    background-image: url(../img/stars.svg);
+    background-size: cover;
+}
+
 /* Fine Main */
 
 /* Inizio Footer */
