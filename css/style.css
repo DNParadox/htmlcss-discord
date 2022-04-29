@@ -10,9 +10,7 @@ body {
 
 /* header */
 header {
-        /* Debug */
-        background-color: lightslategray;
-        height: 500px;
+        height: 600px;
 }
 
 .topheader {
@@ -21,22 +19,31 @@ header {
     background-color: #255ee8;
 
 }
+/* FLEX ITEM */
 .flexcontainer {
     display: flex;
     align-items: center;
     height: 100%;
     justify-content: center;
-    
 }
 
-.flextext {
+.flexjumbotron {
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     line-height: 30px;
     color: white;
     font-size: 20px;
 }
+
+.flextext {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+
+/* FINE FLEX ITEM */
+
 .col {
     padding-top: 40px;
     width: 80%;
@@ -52,7 +59,7 @@ a {
 .bottomheader {
      /* debug */
     background-image:url(../img/jumbo.png);
-    height: 420px;
+    height: 550px;
     background-size: cover;
 }
 
@@ -66,6 +73,8 @@ li {
 
 .logo {
     width: 20%;
+}
+img {
     background-size: cover;
 }
 
@@ -79,13 +88,17 @@ a.login {
 .jumbotron {
     width: 50%;
     height: 90%;
-  
 }
 
 h1 {
     font-size: 40px;
     color: white;
     padding-bottom: 40px;
+}
+
+h2 {
+    font-size: 40px;
+    padding-bottom: 20px;
 }
 
 
@@ -96,9 +109,16 @@ h1 {
 /* Inizio Main */
 
 .main {
-    height: 400px;
+    height: 500px;
 }
-/* Common Color INIZIO */
+/* Common INIZIO */
+.text {
+    padding-left: 40px;
+}
+img {
+    background-size: cover;
+}
+
 .grey {
     background-color: lightgrey;
 }
@@ -128,41 +148,39 @@ h1 {
 }
 /* Common Color FINE */
 .boxxone {
-
-        margin: auto;
-        width: 60%;
+        width: 75%;
         display: flex;
         align-items: center;
         /* Debug */
-        background-color: green;
+        border: 3px dashed black;
         height: 90%;
-        border: 2px dashed black;
 }
 
 .box {
-    margin: auto;
     width: 60%;
     display: flex;
     align-items: center;
-
+    justify-content: flex-end;
     /* Debug */
-    background-color: #1c90ff;
     height: 100%;
-    border: 2px dotted black;
+  
 
 }
 
 .box2 {
-    margin: auto;
     width: 40%;
     display: flex;
-    align-items: center;
         /* Debug */
-        background-color: #febfcb;
         height: 100%;
-        border: 2px dotted black;
+
 }
 
+.righttext {
+    font-size: 20px;
+    padding: 20px;
+
+    
+}
 
 /* Fine Main */
 
