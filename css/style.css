@@ -91,13 +91,14 @@ a.login {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 50px;
     color: white;
     padding-bottom: 40px;
+    padding-top: 40px;
 }
 
 h2 {
-    font-size: 40px;
+    font-size: 50px;
     padding-bottom: 20px;
 }
 
@@ -109,7 +110,7 @@ h2 {
 /* Inizio Main */
 
 .main {
-    height: 500px;
+    height: 600px;
 }
 /* Common INIZIO */
 .text {
@@ -161,10 +162,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    /* Debug */
     height: 100%;
-  
-
 }
 
 .box2 {
@@ -172,16 +170,16 @@ img {
     display: flex;
         /* Debug */
         height: 100%;
-
 }
 
 .righttext {
-    font-size: 20px;
-    padding: 20px;
-
-    
+    font-size: 22px;
+    padding: 30px;
 }
 
+.para {
+    line-height: 30px;
+}
 /* Fine Main */
 
 /* Inizio Footer */
