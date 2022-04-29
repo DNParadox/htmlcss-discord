@@ -33,6 +33,7 @@ header {
     line-height: 30px;
     color: white;
     font-size: 20px;
+    padding-bottom: 80px;
 }
 
 .flextext {
@@ -42,13 +43,17 @@ header {
 
 }
 
+.flexcontainerbottom {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
 /* FINE FLEX ITEM */
 
 .col {
     padding-top: 40px;
     width: 80%;
-    /* Debug */ 
-    height: 40px;  
 }
 
 a {
@@ -69,6 +74,7 @@ ul.flexcontainer {
 }
 li {
     list-style-type: none;   
+    line-height: 30px;
 }
 
 .logo {
@@ -90,6 +96,17 @@ a.login {
     height: 90%;
 }
 
+
+/* Fine Header */
+
+
+
+/* Inizio Main */
+
+.main {
+    height: 900px;
+}
+/* Common INIZIO */
 h1 {
     font-size: 50px;
     color: white;
@@ -102,17 +119,20 @@ h2 {
     padding-bottom: 20px;
 }
 
-
-/* Fine Header */
-
-
-
-/* Inizio Main */
-
-.main {
-    height: 1000px;
+h3 {
+    font-size: 25px;
 }
-/* Common INIZIO */
+
+h4 {
+    font-size: 35px;
+    color: #7288da;
+    padding-bottom: 20px;
+    line-height: 40px;
+}
+
+h5 {
+    color: #7288da;
+}
 .text {
     padding-left: 40px;
 }
@@ -127,32 +147,26 @@ img {
     background-color: white;
 }
 
+#purple {
+    background-color:#7288da;
+    color: white;
+}
 .green {
     background-color: green;
 }
 
-.bottomlogo, .button {
-    background-color: #ffb6c0;
-    align-self: center;
-    font-size: 12px;
-    text-align: center;
-    padding: 2px;
-}
 
 .btnsmall {
     border-radius: 30px;
-    margin: 5px;
-    height: 10%;
     display: inline-block;
     color: black;
-    padding: 9px;
+    padding: 10px;
 }
 /* Common Color FINE */
 .boxxone {
         width: 75%;
         display: flex;
         align-items: center;
-        height: 90%;
 }
 
 .box {
@@ -160,14 +174,11 @@ img {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    height: 100%;
 }
 
 .box2 {
     width: 40%;
     display: flex;
-        /* Debug */
-        height: 100%;
 }
 
 .righttext {
@@ -183,12 +194,12 @@ img {
     line-height: 30px;
 }
 
-h3 {
-    font-size: 25px;
-}
+
 .star {
     background-image: url(../img/stars.svg);
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
 
 /* Fine Main */
@@ -201,20 +212,41 @@ footer {
 }
 
 .topfooter {
-    height: 93.2%;
+    height: 84%;
   
 }
-
+ /* Footerbox 1  */
 .footerbox1 {
-    background-color: #ef8080;
-    width: 40%;
     height: 100%;
-    border: 1px dotted black;
+}
+.flag {
+    height: 12px;
+    width: 18px;
+    background-size: contain;
+
+}
+.flagtext {
+    font-size: 18px;
+    color: white;
 }
 
+.social {
+    padding: 10px 0px;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+.fixcol {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* FINE Footer box 1  */
+/* INIZIO Footer Box 2  */
 .footerbox2 {
-    background-color: #20b1a9;
-    border: 1px dotted black;
+    display: flex;
     width: 20%;
     height: 100%;
 }
@@ -223,12 +255,16 @@ footer {
     align-items: flex-end;
 }
 
-.bottombox {
+.purpleline {
+    color: #7288da;
+    width: 75%;
     margin: auto;
-    width: 60%;
-    height: 32px;
-    /* debug */
-    background-color: #7fffd3;
+}
 
+.bottombox {
+    padding-bottom: 50px;
+    margin: auto;
+    width: 75%;
+    height: 32px;
 }
 
