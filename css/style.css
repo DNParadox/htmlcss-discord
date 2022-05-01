@@ -96,7 +96,23 @@ a.login {
     height: 90%;
 }
 
+.dwnmac{
+  margin-right: 40px;
+  padding: 6px 15px;
+  border-radius: 30px;
+  display: inline-block;
+  color: black;
 
+  background-color: white;
+}
+
+.openbrow {
+    border-radius: 30px;
+    display: inline-block;
+    color: white;
+    padding: 6px 15px;
+    background-color: #23272a;
+}
 /* Fine Header */
 
 
@@ -141,7 +157,7 @@ img {
 }
 
 .grey {
-    background-color: lightgrey;
+    background-color:#f6f6f6;
 }
 .white {
     background-color: white;
@@ -160,7 +176,7 @@ img {
     border-radius: 30px;
     display: inline-block;
     color: black;
-    padding: 10px;
+    padding: 6px 15px;
 }
 /* Common Color FINE */
 .boxxone {
@@ -202,6 +218,14 @@ img {
 
 }
 
+.btnlarge {
+    border-radius: 30px;
+    word-spacing: 4px;
+    color: white;
+    padding: 6px 15px;
+    background-color: #7288da;
+
+}
 /* Fine Main */
 
 /* Inizio Footer */
@@ -256,15 +280,19 @@ footer {
 }
 
 .purpleline {
-    color: #7288da;
+    border-color: #7288da;
     width: 75%;
     margin: auto;
+    margin-bottom: 20px;
 }
 
 .bottombox {
-    padding-bottom: 50px;
-    margin: auto;
-    width: 75%;
-    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
 }
 
+.bottomlogo {
+    width: 69%;
+}
