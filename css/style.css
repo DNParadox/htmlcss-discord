@@ -96,6 +96,9 @@ a.login {
     height: 90%;
 }
 
+.download {
+    margin-top: 20px;
+}
 .dwnmac{
   margin-right: 40px;
   padding: 6px 15px;
@@ -120,7 +123,7 @@ a.login {
 /* Inizio Main */
 
 .main {
-    height: 900px;
+    height: 1200px;
 }
 /* Common INIZIO */
 h1 {
@@ -137,6 +140,7 @@ h2 {
 
 h3 {
     font-size: 25px;
+    color: black;
 }
 
 h4 {
@@ -224,7 +228,17 @@ img {
     color: white;
     padding: 6px 15px;
     background-color: #7288da;
+    font-size: 20px;
 
+}
+
+.bigimage {
+    width: 100%;
+    height: auto;
+}
+
+.fineheader {
+    padding: 50px 0px;
 }
 /* Fine Main */
 
